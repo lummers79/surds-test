@@ -1,6 +1,8 @@
-# Rational and irrational numbers
+# Surds
 
-## Rational and irrational numbers
+## Notes and examples
+
+### Rational and irrational numbers
 
 An irrational number is a number which cannot be expressed as one whole number divided by another whole number. Irrational numbers can’t be written as fractions.
 
@@ -8,5 +10,72 @@ The square root of any number which is not itself a perfect square is an irratio
 
 In this section you will learn to manipulate and simplify expressions involving surds. This is an important skill in many areas of mathematics. For example, suppose you have a triangular paving slab like this:
 
-![](images/Picture.png)
+<center>
 
+![](images/Picture.png){width=250px}
+
+</center>
+
+You can use Pythagoras’ theorem to work out that the length of the third side is $\sqrt{3000}$. You could use a calculator to work this out and give the answer to two or three decimal places, but this would no longer be exact. Suppose you wanted to find the area and perimeter of the slab, or the total area of 100 slabs, or find out how many slabs you could make from a certain volume of concrete? It is much better to use the exact answer in these calculations, and then the results will also be exact.
+
+### Writing a square root in terms of a simpler square root
+
+Square roots like the one in the example above look quite daunting and can be difficult to work with. However, many square roots can be written in terms of a simpler square root like $\sqrt{2}$ or $\sqrt{3}$ (and the same applies to cube roots and so on). Example 1 shows how to do this.
+
+**Example 1**
+
+Write these numbers in terms of the simplest possible square roots.
+
+(a) $\sqrt{12}$     
+(b) $\sqrt{72}$    
+(c) $\sqrt{150}$
+
+***Solution***
+
+(a) $\begin{aligned}
+&12=4\times 3 \\
+&\sqrt{12}=\sqrt{4} \times \sqrt{3}=2\sqrt{3} \\
+\end{aligned}$
+
+(b) $\begin{aligned}
+&72=36\times 2 \\
+&\sqrt{72}=\sqrt{36} \times \sqrt{2}=6\sqrt{3} \\
+\end{aligned}$
+
+(c) $\begin{aligned}
+&150=25\times 6 \\
+&\sqrt{150}=\sqrt{25} \times \sqrt{6}=5\sqrt{6} \\
+\end{aligned}$
+
+### Adding and subtracting surds
+
+Adding and subtracting surds is rather like adding or subtracting algebraic expressions, in that you have to collect “like terms”. You should collect together any rational numbers, and collect together any terms involving roots of the same number. You cannot collect together terms involving roots of different numbers, such as $\sqrt{2}$ and $\sqrt{3}$.
+
+**Example 2**
+
+Simplify
+
+(a) $(2+\sqrt{2})+(3-2\sqrt{2})$
+(b) $(4-\sqrt{3})-(1-2\sqrt{2}+3\sqrt{3})$
+(c) $\sqrt32-\sqrt{18}$
+
+***Solution***
+
+(a) $\begin{aligned}
+(2+\sqrt{2})+(3-2\sqrt{2}) &= 2+3+\sqrt{2}-2\sqrt{2} \\
+&=5-\sqrt{2}
+\end{aligned}$
+
+(b) $\begin{aligned}
+(4-\sqrt{3})-(1-2\sqrt{2}+3\sqrt{3}) &= 4-\sqrt{3}-1+2\sqrt{2}-3\sqrt{3} \\
+&=4-1-\sqrt{3}-3\sqrt{3}+2\sqrt{2} \\
+&=3-4\sqrt{3}+2\sqrt{2} 
+\end{aligned}$
+
+(c) *At first sight this looks like it cannot be simplified. However, both surds can be written in terms of simpler surds (as in Example 1).*
+
+$\begin{aligned}
+&\sqrt{32}=\sqrt{16}\times\sqrt{2}=4\sqrt{2} \\
+&\sqrt{18}=\sqrt{9}\times\sqrt{2}=3\sqrt{2} \\
+&\sqrt{32}-\sqrt{18}=4\sqrt{2}-3\sqrt{2}=\sqrt{2} \\
+\end{aligned}$
