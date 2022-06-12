@@ -8,7 +8,5 @@ The square root of any number which is not itself a perfect square is an irratio
 
 In this section you will learn to manipulate and simplify expressions involving surds. This is an important skill in many areas of mathematics. For example, suppose you have a triangular paving slab like this:
 
-! [A right-angled triangle] (/andylumley/Surds/images/Picture.png)
-
-include_graphics(/Users/andylumley/Surds/images/Picture.png)
+![](images/Picture.png)
 
