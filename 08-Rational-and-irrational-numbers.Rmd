@@ -1,0 +1,14 @@
+# Rational and irrational numbers
+
+## Rational and irrational numbers
+
+An irrational number is a number which cannot be expressed as one whole number divided by another whole number. Irrational numbers can’t be written as fractions.
+
+The square root of any number which is not itself a perfect square is an irrational number. So $\sqrt{2}$ and $\sqrt{3}$ are irrational numbers, but $\sqrt{4}$ is not as it is equal to 2, which is a rational number. A number which is partly rational and partly square root (or cube root etc.) is called a surd. (There are of course other irrational numbers which do not involve a root, such as $\pi$
+
+In this section you will learn to manipulate and simplify expressions involving surds. This is an important skill in many areas of mathematics. For example, suppose you have a triangular paving slab like this:
+
+! [A right-angled triangle] (/andylumley/Surds/images/Picture.png)
+
+include_graphics(/Users/andylumley/Surds/images/Picture.png)
+
