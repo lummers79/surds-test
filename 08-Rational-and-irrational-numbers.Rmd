@@ -12,9 +12,9 @@ In this section you will learn to manipulate and simplify expressions involving 
 
 <center>
 
-![](images/Picture.png){width=250px}
+![right angled triangle with hypotenuse 70cm and a shorter side of 40cm](images/Picture.png){width=250px}
 
-</center>
+<center>
 
 You can use Pythagoras’ theorem to work out that the length of the third side is $\sqrt{3000}$. You could use a calculator to work this out and give the answer to two or three decimal places, but this would no longer be exact. Suppose you wanted to find the area and perimeter of the slab, or the total area of 100 slabs, or find out how many slabs you could make from a certain volume of concrete? It is much better to use the exact answer in these calculations, and then the results will also be exact.
 
@@ -72,10 +72,44 @@ Simplify
 &=3-4\sqrt{3}+2\sqrt{2} 
 \end{aligned}$
 
-(c) *At first sight this looks like it cannot be simplified. However, both surds can be written in terms of simpler surds (as in Example 1).*
-
-$\begin{aligned}
+(c) $\begin{aligned}
+&\textit{At first sight this looks like it cannot be simplified. However, both surds can be written in terms of simpler surds (as in Example 1).}
 &\sqrt{32}=\sqrt{16}\times\sqrt{2}=4\sqrt{2} \\
 &\sqrt{18}=\sqrt{9}\times\sqrt{2}=3\sqrt{2} \\
 &\sqrt{32}-\sqrt{18}=4\sqrt{2}-3\sqrt{2}=\sqrt{2} \\
 \end{aligned}$
+
+### Multiplying surds
+
+Multiplying two or more square roots is quite simple – you just multiply the numbers. You may then be able to write the result as a simpler surd.
+
+**Example 3**
+
+Simplify
+
+(a) $\sqrt 2  \times \sqrt 6$
+
+(b) $2\sqrt {15}  \times \sqrt 6  \times 3\sqrt {10}$
+
+***Solution***
+
+(a) $\begin{array}{l}
+\sqrt 2  \times \sqrt 6  &= \sqrt {12} \\
+ &= \sqrt 4  \times \sqrt 3 \\
+ &= 2\sqrt 3 
+\end{array}$
+
+*The approach used in part (a) works well for small numbers, but for part (b) you would get the square root of a large number to simplify. An easier way for this example is to split each surd into simpler ones and then look for any pairs.*
+
+(b) $\begin{array}{l}
+2\sqrt {15}  \times \sqrt 6  \times 3\sqrt {10}  &= (2 \times \sqrt 3  \times \sqrt 5 ) \times (\sqrt 2  \times \sqrt 3 ) \times (3 \times \sqrt 5  \times \sqrt 2 )\\
+ &= 2 \times 3 \times \sqrt 3  \times \sqrt 3  \times \sqrt 5  \times \sqrt 5  \times \sqrt 2  \times \sqrt 2 \\
+ &= 6 \times 3 \times 5 \times 2\\
+ &= 180
+\end{array}$
+
+
+
+
+
+

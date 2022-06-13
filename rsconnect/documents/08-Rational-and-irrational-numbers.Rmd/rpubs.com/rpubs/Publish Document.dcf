@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/914103/28036a1a14d84aafb0df4c10d5a25bf0
+bundleId: https://api.rpubs.com/api/v1/document/914103/28036a1a14d84aafb0df4c10d5a25bf0
+url: http://rpubs.com/andylumley/914103
+when: 1655126099.24177
+lastSyncTime: 1655126099.2418
