@@ -108,6 +108,63 @@ Simplify
  &= 180
 \end{array}$
 
+The next example deals with multiplying expressions involving a mixture of rational numbers and roots. You have to use brackets for this, and it is very similar to multiplying out two brackets in algebra – each term in the first bracket needs to be multiplied by each term in the second bracket. You can use FOIL (First, Outer, Inner, Last) if it helps you.
+
+**Example 4**
+
+Multiply out and simplify
+
+(a)	 $(2 + \sqrt 3 )(1 - 2\sqrt 3 )$
+(b)	 ${(3 - \sqrt 2 )^2}$
+(c)	 $(\sqrt 5  - 2)(\sqrt 5  + 2)$
+
+***Solution***
+
+(a)	 $\begin{align}{l}
+(2 + \sqrt 3 )(1 - 2\sqrt 3 ) &= 2 - 4\sqrt 3  + \sqrt 3  - 2\sqrt 3  \times \sqrt 3 \\
+ &= 2 - 3\sqrt 3  - 6\\
+ &=  - 4 - 3\sqrt 3 
+\end{align}$
+
+(b)	 $\begin{align}{l}
+{(3 - \sqrt 2 )^2} = (3 - \sqrt 2 )(3 - \sqrt 2 )\\
+ &= 9 - 3\sqrt 2  - 3\sqrt 2  + \sqrt 2  \times \sqrt 2 \\
+ &= 9 - 6\sqrt 2  + 2\\
+ &= 11 - 6\sqrt 2 
+\end{align}$
+
+(c)	 $\begin{align}{l}
+(\sqrt 5  - 2)(\sqrt 5  + 2) &= \sqrt 5  \times \sqrt 5  + 2\sqrt 5  - 2\sqrt 5  - 2 \times 2\\
+ &= 5 - 4\\
+ &= 1
+\end{align}$
+
+Part (c) of Example 4 illustrates a very important and useful idea. Multiplying out any expression of the form $(a+b)(a-b)$ gives the result $a^{2}-b^{2}$. The “outer” and “inner” products,$-ab$ and $ab$, cancel each other out. When either or both of *a* and *b* are surds, the result $a^{2}-b^{2}$ is a rational number.
+
+### Rationalising the denominator
+
+Surds in the denominator of a fraction can be a real nuisance! However, you can get rid of them from the denominator by a process called rationalising the denominator, which uses the idea above. If the denominator of a fraction is *a* + *b*, where either or both of *a* and *b* are surds, then you can multiply both top and bottom of the fraction by *a* – *b*. The denominator is then $(a+b)(a-b)$, which expands to give a rational number. Since you multiply the top and bottom of the fraction by the same amount, its value is unchanged. The numerator still involves surds, but this is not quite so difficult to work with. 
+
+This technique is shown in Example 5.
+
+**Example 5**
+
+Simplify the following by rationalising the denominator.
+
+(a)	 	\[\begin{align}{l}
+\frac{1}{{\sqrt 3 }} &= \frac{1}{{\sqrt 3 }} \times \frac{{\sqrt 3 }}{{\sqrt 3 }}\\
+ &= \frac{{\sqrt 3 }}{3}
+\end{array}\]		
+
+(b)	 		
+(c)	 
+Solution
+Remember if the denominator of a fraction is a surd then the fraction is not in its simplest form.
+(a)	 	First: Multiply top and bottom by  
+
+(b)	 		First: Multiply top and bottom by  
+
+(c)	  	First: Multiply top and bottom by  
 
 
 
