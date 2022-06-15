@@ -73,7 +73,7 @@ Simplify
 \end{aligned}$
 
 (c) $\begin{aligned}
-&\textit{At first sight this looks like it cannot be simplified. However, both surds can be written in terms of simpler surds (as in Example 1).}
+&\textit{At first sight this looks like it cannot be simplified. However, both surds can be written in terms of simpler surds (as in Example 1).} \\
 &\sqrt{32}=\sqrt{16}\times\sqrt{2}=4\sqrt{2} \\
 &\sqrt{18}=\sqrt{9}\times\sqrt{2}=3\sqrt{2} \\
 &\sqrt{32}-\sqrt{18}=4\sqrt{2}-3\sqrt{2}=\sqrt{2} \\
@@ -151,20 +151,39 @@ This technique is shown in Example 5.
 
 Simplify the following by rationalising the denominator.
 
+(a) $\frac{1}{{\sqrt 3 }}$
+
+(b) $\frac{1}{{\sqrt 2  + 1}}$
+
+(c) $\frac{{2 + \sqrt 3 }}{{1 - \sqrt 3 }}$
+
+***Solution***
+
+*Remember if the denominator of a fraction is a surd then the fraction is not in its simplest form.*
+
 (a)	 	\[\begin{align}{l}
 \frac{1}{{\sqrt 3 }} &= \frac{1}{{\sqrt 3 }} \times \frac{{\sqrt 3 }}{{\sqrt 3 }}\\
  &= \frac{{\sqrt 3 }}{3}
 \end{array}\]		
 
-(b)	 		
-(c)	 
-Solution
-Remember if the denominator of a fraction is a surd then the fraction is not in its simplest form.
-(a)	 	First: Multiply top and bottom by  
+(b)	 		\[\begin{array}{l}
+\frac{1}{{\sqrt 2  + 1}} &= \frac{1}{{\sqrt 2  + 1}} \times \frac{{\sqrt 2  - 1}}{{\sqrt 2  - 1}}\\
+ &= \frac{{\sqrt 2  - 1}}{{(\sqrt 2  + 1)(\sqrt 2  - 1)}}\\
+ &= \frac{{\sqrt 2  - 1}}{{2 - 1}}\\
+ &= \sqrt 2  - 1
+\end{array}\]
 
-(b)	 		First: Multiply top and bottom by  
+(c)	\[\begin{array}{l}
+\frac{{2 + \sqrt 3 }}{{1 - \sqrt 3 }} &= \frac{{2 + \sqrt 3 }}{{1 - \sqrt 3 }} \times \frac{{1 + \sqrt 3 }}{{1 + \sqrt 3 }}\\
+ &= \frac{{(2 + \sqrt 3 )(1 + \sqrt 3 )}}{{(1 - \sqrt 3 )(1 + \sqrt 3 )}}\\
+ &= \frac{{2 + 2\sqrt 3  + \sqrt 3  + 3}}{{1 - 3}}\\
+ &=  - {\textstyle{1 \over 2}}(5 + 3\sqrt 3 )
+\end{array}\] 
 
-(c)	  	First: Multiply top and bottom by  
+
+
+
+
 
 
 
