@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML.js"></script>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>08-rational-and-irrational-numbers</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="surds">Surds</h1>
+<h2 id="notes-and-examples">Notes and examples</h2>
+<h3 id="rational-and-irrational-numbers">Rational and irrational
+numbers</h3>
+<p>An irrational number is a number which cannot be expressed as one
+whole number divided by another whole number. Irrational numbers can’t
+be written as fractions.</p>
+<p>The square root of any number which is not itself a perfect square is
+an irrational number. So <span class="math inline">\(\sqrt{2}\)</span>
+and <span class="math inline">\(\sqrt{3}\)</span> are irrational
+numbers, but <span class="math inline">\(\sqrt{4}\)</span> is not as it
+is equal to 2, which is a rational number. A number which is partly
+rational and partly square root (or cube root etc.) is called a surd.
+(There are of course other irrational numbers which do not involve a
+root, such as <span class="math inline">\(\pi\)</span></p>
+<p>In this section you will learn to manipulate and simplify expressions
+involving surds. This is an important skill in many areas of
+mathematics. For example, suppose you have a triangular paving slab like
+this:</p>
+<figure>
+<img src="images/Picture.png" width="250"
+alt="right angled triangle with hypotenuse 70cm and a shorter side of 40cm" />
+<figcaption aria-hidden="true">right angled triangle with hypotenuse
+70cm and a shorter side of 40cm</figcaption>
+</figure>
+<p>You can use Pythagoras’ theorem to work out that the length of the
+third side is <span class="math inline">\(\sqrt{3000}\)</span>. You
+could use a calculator to work this out and give the answer to two or
+three decimal places, but this would no longer be exact. Suppose you
+wanted to find the area and perimeter of the slab, or the total area of
+100 slabs, or find out how many slabs you could make from a certain
+volume of concrete? It is much better to use the exact answer in these
+calculations, and then the results will also be exact.</p>
+<h3 id="writing-a-square-root-in-terms-of-a-simpler-square-root">Writing
+a square root in terms of a simpler square root</h3>
+<p>Square roots like the one in the example above look quite daunting
+and can be difficult to work with. However, many square roots can be
+written in terms of a simpler square root like <span
+class="math inline">\(\sqrt{2}\)</span> or <span
+class="math inline">\(\sqrt{3}\)</span> (and the same applies to cube
+roots and so on). Example 1 shows how to do this.</p>
+<p><strong>Example 1</strong></p>
+<p>Write these numbers in terms of the simplest possible square
+roots.</p>
+<ol type="a">
+<li><span class="math inline">\(\sqrt{12}\)</span><br />
+</li>
+<li><span class="math inline">\(\sqrt{72}\)</span><br />
+</li>
+<li><span class="math inline">\(\sqrt{150}\)</span></li>
+</ol>
+<p><strong><em>Solution</em></strong></p>
+<ol type="a">
+<li><p><span class="math inline">\(\begin{aligned} &amp;12=4\times 3 \\
+&amp;\sqrt{12}=\sqrt{4} \times \sqrt{3}=2\sqrt{3} \\
+\end{aligned}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{aligned} &amp;72=36\times 2 \\
+&amp;\sqrt{72}=\sqrt{36} \times \sqrt{2}=6\sqrt{3} \\
+\end{aligned}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{aligned} &amp;150=25\times 6
+\\ &amp;\sqrt{150}=\sqrt{25} \times \sqrt{6}=5\sqrt{6} \\
+\end{aligned}\)</span></p></li>
+</ol>
+<h3 id="adding-and-subtracting-surds">Adding and subtracting surds</h3>
+<p>Adding and subtracting surds is rather like adding or subtracting
+algebraic expressions, in that you have to collect “like terms”. You
+should collect together any rational numbers, and collect together any
+terms involving roots of the same number. You cannot collect together
+terms involving roots of different numbers, such as <span
+class="math inline">\(\sqrt{2}\)</span> and <span
+class="math inline">\(\sqrt{3}\)</span>.</p>
+<p><strong>Example 2</strong></p>
+<p>Simplify</p>
+<ol type="a">
+<li><span class="math inline">\((2+\sqrt{2})+(3-2\sqrt{2})\)</span></li>
+<li><span
+class="math inline">\((4-\sqrt{3})-(1-2\sqrt{2}+3\sqrt{3})\)</span></li>
+<li><span class="math inline">\(\sqrt32-\sqrt{18}\)</span></li>
+</ol>
+<p><strong><em>Solution</em></strong></p>
+<ol type="a">
+<li><p><span class="math inline">\(\begin{aligned}
+(2+\sqrt{2})+(3-2\sqrt{2}) &amp;= 2+3+\sqrt{2}-2\sqrt{2} \\
+&amp;=5-\sqrt{2} \end{aligned}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{aligned}
+(4-\sqrt{3})-(1-2\sqrt{2}+3\sqrt{3}) &amp;=
+4-\sqrt{3}-1+2\sqrt{2}-3\sqrt{3} \\
+&amp;=4-1-\sqrt{3}-3\sqrt{3}+2\sqrt{2} \\ &amp;=3-4\sqrt{3}+2\sqrt{2}
+\end{aligned}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{aligned} &amp;\textit{At first
+sight this looks like it cannot be simplified. However, both surds can
+be written in terms of simpler surds (as in Example 1).} \\
+&amp;\sqrt{32}=\sqrt{16}\times\sqrt{2}=4\sqrt{2} \\
+&amp;\sqrt{18}=\sqrt{9}\times\sqrt{2}=3\sqrt{2} \\
+&amp;\sqrt{32}-\sqrt{18}=4\sqrt{2}-3\sqrt{2}=\sqrt{2} \\
+\end{aligned}\)</span></p></li>
+</ol>
+<h3 id="multiplying-surds">Multiplying surds</h3>
+<p>Multiplying two or more square roots is quite simple – you just
+multiply the numbers. You may then be able to write the result as a
+simpler surd.</p>
+<p><strong>Example 3</strong></p>
+<p>Simplify</p>
+<ol type="a">
+<li><p><span class="math inline">\(\sqrt 2 \times \sqrt
+6\)</span></p></li>
+<li><p><span class="math inline">\(2\sqrt {15} \times \sqrt 6 \times
+3\sqrt {10}\)</span></p></li>
+</ol>
+<p><strong><em>Solution</em></strong></p>
+<ol type="a">
+<li><span class="math inline">\(\begin{array}{l} \sqrt 2 \times \sqrt 6
+&amp;= \sqrt {12} \\  &amp;= \sqrt 4 \times \sqrt 3 \\  &amp;= 2\sqrt 3
+\end{array}\)</span></li>
+</ol>
+<p><em>The approach used in part (a) works well for small numbers, but
+for part (b) you would get the square root of a large number to
+simplify. An easier way for this example is to split each surd into
+simpler ones and then look for any pairs.</em></p>
+<ol start="2" type="a">
+<li><span class="math inline">\(\begin{array}{l} 2\sqrt {15} \times
+\sqrt 6 \times 3\sqrt {10} &amp;= (2 \times \sqrt 3 \times \sqrt 5 )
+\times (\sqrt 2 \times \sqrt 3 ) \times (3 \times \sqrt 5 \times \sqrt 2
+)\\  &amp;= 2 \times 3 \times \sqrt 3 \times \sqrt 3 \times \sqrt 5
+\times \sqrt 5 \times \sqrt 2 \times \sqrt 2 \\  &amp;= 6 \times 3
+\times 5 \times 2\\  &amp;= 180 \end{array}\)</span></li>
+</ol>
+<p>The next example deals with multiplying expressions involving a
+mixture of rational numbers and roots. You have to use brackets for
+this, and it is very similar to multiplying out two brackets in algebra
+– each term in the first bracket needs to be multiplied by each term in
+the second bracket. You can use FOIL (First, Outer, Inner, Last) if it
+helps you.</p>
+<p><strong>Example 4</strong></p>
+<p>Multiply out and simplify</p>
+<ol type="a">
+<li><span class="math inline">\((2 + \sqrt 3 )(1 - 2\sqrt 3
+)\)</span></li>
+<li><span class="math inline">\({(3 - \sqrt 2 )^2}\)</span></li>
+<li><span class="math inline">\((\sqrt 5 - 2)(\sqrt 5 + 2)\)</span></li>
+</ol>
+<p><strong><em>Solution</em></strong></p>
+<ol type="a">
+<li><p><span class="math inline">\(\begin{align} (2 + \sqrt 3 )(1 -
+2\sqrt 3 ) &amp;= 2 - 4\sqrt 3 + \sqrt 3 - 2\sqrt 3 \times \sqrt 3
+\\  &amp;= 2 - 3\sqrt 3 - 6\\  &amp;= - 4 - 3\sqrt 3
+\end{align}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{align} {(3 - \sqrt 2 )^2}
+&amp;= (3 - \sqrt 2 )(3 - \sqrt 2 )\\  &amp;= 9 - 3\sqrt 2 - 3\sqrt 2 +
+\sqrt 2 \times \sqrt 2 \\  &amp;= 9 - 6\sqrt 2 + 2\\  &amp;= 11 - 6\sqrt
+2 \end{align}\)</span></p></li>
+<li><p><span class="math inline">\(\begin{align} (\sqrt 5 - 2)(\sqrt 5 +
+2) &amp;= \sqrt 5 \times \sqrt 5 + 2\sqrt 5 - 2\sqrt 5 - 2 \times
+2\\  &amp;= 5 - 4\\  &amp;= 1 \end{align}\)</span></p></li>
+</ol>
+<p>Part (c) of Example 4 illustrates a very important and useful idea.
+Multiplying out any expression of the form <span
+class="math inline">\((a+b)(a-b)\)</span> gives the result <span
+class="math inline">\(a^{2}-b^{2}\)</span>. The “outer” and “inner”
+products,<span class="math inline">\(-ab\)</span> and <span
+class="math inline">\(ab\)</span>, cancel each other out. When either or
+both of <em>a</em> and <em>b</em> are surds, the result <span
+class="math inline">\(a^{2}-b^{2}\)</span> is a rational number.</p>
+<h3 id="rationalising-the-denominator">Rationalising the
+denominator</h3>
+<p>Surds in the denominator of a fraction can be a real nuisance!
+However, you can get rid of them from the denominator by a process
+called rationalising the denominator, which uses the idea above. If the
+denominator of a fraction is <em>a</em> + <em>b</em>, where either or
+both of <em>a</em> and <em>b</em> are surds, then you can multiply both
+top and bottom of the fraction by <em>a</em> – <em>b</em>. The
+denominator is then <span class="math inline">\((a+b)(a-b)\)</span>,
+which expands to give a rational number. Since you multiply the top and
+bottom of the fraction by the same amount, its value is unchanged. The
+numerator still involves surds, but this is not quite so difficult to
+work with.</p>
+<p>This technique is shown in Example 5.</p>
+<p><strong>Example 5</strong></p>
+<p>Simplify the following by rationalising the denominator.</p>
+<ol type="a">
+<li><p><span class="math inline">\(\frac{1}{{\sqrt 3
+}}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{{\sqrt 2 +
+1}}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{{2 + \sqrt 3 }}{{1 - \sqrt 3
+}}\)</span></p></li>
+</ol>
+<p><strong><em>Solution</em></strong></p>
+<p><em>Remember if the denominator of a fraction is a surd then the
+fraction is not in its simplest form.</em></p>
+<p><span class="math inline">\(\begin{align} \textbf{a.} \hspace{1em}
+\frac{1}{{\sqrt 3 }} &amp;= \frac{1}{{\sqrt 3 }} \times \frac{{\sqrt 3
+}}{{\sqrt 3 }}\\  &amp;= \frac{{\sqrt 3 }}{3} \end{align}\)</span></p>
+<p><span class="math inline">\(\begin{align} \textbf{b.} \hspace{1em}
+\frac{1}{{\sqrt 2 + 1}} &amp;= \frac{1}{{\sqrt 2 + 1}} \times
+\frac{{\sqrt 2 - 1}}{{\sqrt 2 - 1}}\\  &amp;= \frac{{\sqrt 2 -
+1}}{{(\sqrt 2 + 1)(\sqrt 2 - 1)}}\\  &amp;= \frac{{\sqrt 2 - 1}}{{2 -
+1}}\\  &amp;= \sqrt 2 - 1 \end{align}\)</span></p>
+<p><span class="math inline">\(\begin{align} \textbf{c.} \hspace{1em}
+\frac{{2 + \sqrt 3 }}{{1 - \sqrt 3 }} &amp;= \frac{{2 + \sqrt 3 }}{{1 -
+\sqrt 3 }} \times \frac{{1 + \sqrt 3 }}{{1 + \sqrt 3 }}\\  &amp;=
+\frac{{(2 + \sqrt 3 )(1 + \sqrt 3 )}}{{(1 - \sqrt 3 )(1 + \sqrt 3
+)}}\\  &amp;= \frac{{2 + 2\sqrt 3 + \sqrt 3 + 3}}{{1 - 3}}\\  &amp;= -
+{\textstyle{1 \over 2}}(5 + 3\sqrt 3 ) \end{align}\)</span></p>
+</body>
+</html>
